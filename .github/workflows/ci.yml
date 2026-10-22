@@ -1,0 +1,19 @@
+name: Verify site
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SITE_URL: ${{ vars.SITE_URL || 'https://example.pages.dev' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python3 build.py
+      - run: python3 tools/check_links.py dist
+      - run: python3 tools/verify_seo.py dist "$SITE_URL"

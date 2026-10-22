@@ -5,7 +5,7 @@
  "hours": null,
  "contact_form_endpoint": null,
  "documents": null,
- "origin": null,
+ "origin": "https://mtecslcollege.netlify.app",
  "apply_url": null,
- "app_url": null
+ "app_url": "https://sanad-sl.org/mtecapp/mtec-student-app.apk"
 }
