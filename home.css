@@ -1,0 +1,33 @@
+/* Homepage-specific layout. Uses tokens from mtec.css. */
+.btn{text-transform:uppercase;letter-spacing:.03em}
+.on-dark .btn--ghost{color:#fff;border-color:#fff}.on-dark .btn--ghost:hover{background:#fff;color:var(--navy)}
+.contact-strip .wrap{justify-content:space-between}
+.contact-strip .slogan{font-weight:800;letter-spacing:.06em;color:var(--gold)}
+.hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+.hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(6,43,91,.94) 0,rgba(6,43,91,.82) 55%,rgba(6,43,91,.55))}
+.hero .wrap{position:relative;z-index:2;padding-block:var(--s8)}
+.hero h1{color:#fff;max-width:22ch;margin-bottom:var(--s4);text-transform:uppercase}
+.hero p{font-size:1.125rem;max-width:44rem}
+.hero__cta{display:flex;flex-wrap:wrap;gap:var(--s3);margin-top:var(--s5)}
+.hero__cta .btn{flex:1 1 14rem}
+@media(min-width:48rem){.hero__cta .btn{flex:0 0 auto}}
+.value{border-top:4px solid var(--gold)}
+.value h3{font-size:1.0625rem;text-transform:uppercase;letter-spacing:.02em}
+.cat__icon{display:grid;place-items:center;aspect-ratio:16/9;background:var(--navy);color:var(--gold)}
+.cat__icon svg{width:4rem;height:4rem;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.cat .card__body a.more{margin-top:auto;font-weight:700;position:relative;z-index:1;min-height:var(--tap);display:inline-flex;align-items:center}
+.section-cta{margin-top:var(--s6)}
+.about{display:grid;gap:var(--s6);align-items:center}
+@media(min-width:62rem){.about:has(figure:not([hidden])){grid-template-columns:1fr 1fr}}
+.about figure{margin:0}.about img{border-radius:var(--r-md);width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--bg)}
+.cta-band{background:var(--navy);color:#fff;text-align:center;border-top:6px solid var(--gold)}
+.cta-band h2{color:#fff;text-transform:uppercase}.cta-band p{margin-inline:auto}
+.site-footer .brand{color:#fff;margin-bottom:var(--s3)}.site-footer .brand small{color:#dbe6f5}
+
+.crest{width:64px;height:64px}
+.hero__tag{display:inline-block;background:var(--gold);color:var(--navy);font-weight:800;padding:var(--s1) var(--s3);border-radius:var(--r-sm);margin-bottom:var(--s4)}
+.hero h1 .gold{color:var(--gold)}
+.site-footer .crest{background:#fff;border-radius:var(--r-md);padding:4px}
+/* Restrained green accent (from the crest laurels): value cards only */
+.value{border-top-color:var(--success)}

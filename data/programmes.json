@@ -1,0 +1,212 @@
+{
+ "categories": [
+  {
+   "id": "computing",
+   "name": "Computing & AI"
+  },
+  {
+   "id": "business",
+   "name": "Business & Management"
+  },
+  {
+   "id": "ict",
+   "name": "ICT & Technical Skills"
+  },
+  {
+   "id": "creative",
+   "name": "Creative & Vocational"
+  }
+ ],
+ "programmes": [
+  {
+   "slug": "computer-science",
+   "name": "Computer science",
+   "category": "computing",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "web-and-mobile-application-development",
+   "name": "Web and mobile application development",
+   "category": "computing",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "ai-tools",
+   "name": "AI tools",
+   "category": "computing",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "data-analysis",
+   "name": "Data analysis",
+   "category": "computing",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "cybersecurity",
+   "name": "Cybersecurity",
+   "category": "computing",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "business-administration",
+   "name": "Business administration",
+   "category": "business",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "accounting",
+   "name": "Accounting",
+   "category": "business",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "human-resources",
+   "name": "Human resources",
+   "category": "business",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "supply-chain",
+   "name": "Supply chain",
+   "category": "business",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "digital-marketing",
+   "name": "Digital marketing",
+   "category": "business",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "entrepreneurship",
+   "name": "Entrepreneurship",
+   "category": "business",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "networking",
+   "name": "Networking",
+   "category": "ict",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "computer-and-phone-repair",
+   "name": "Computer and phone repair",
+   "category": "ict",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "electrical-and-solar-installation",
+   "name": "Electrical and solar installation",
+   "category": "ict",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "autocad",
+   "name": "AutoCAD",
+   "category": "ict",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "survey-and-mapping",
+   "name": "Survey and mapping",
+   "category": "ict",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "tailoring-and-fashion-design",
+   "name": "Tailoring and fashion design",
+   "category": "creative",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "cake-baking",
+   "name": "Cake baking",
+   "category": "creative",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  },
+  {
+   "slug": "beauty-skills",
+   "name": "Beauty skills",
+   "category": "creative",
+   "summary": null,
+   "level": null,
+   "duration": null,
+   "fee": null,
+   "requirements": null
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+/* Inner-page styles. Uses tokens from mtec.css. */
+.page-head{background:var(--bg);border-bottom:3px solid var(--gold);padding-bottom:var(--s5)}
+.page-head h1{font-size:clamp(1.75rem,5vw,2.5rem);margin-bottom:var(--s2)}
+.page-head p{color:var(--text);margin:0}
+.split{display:grid;gap:var(--s6)}
+@media(min-width:62rem){.split{grid-template-columns:2fr 1fr}}
+.prose{max-width:var(--measure)}.prose h2{margin-top:var(--s6)}
+.steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;gap:var(--s4);max-width:var(--measure)}
+.steps li{counter-increment:s;display:flex;gap:var(--s4);align-items:flex-start}
+.steps li::before{content:counter(s);flex:none;width:2.25rem;height:2.25rem;border-radius:50%;background:var(--navy);color:#fff;font-weight:800;display:grid;place-items:center}
+.filters{display:grid;gap:var(--s3);margin-bottom:var(--s5)}
+@media(min-width:48rem){.filters{grid-template-columns:2fr 1fr}.filters .field{margin:0}}
+.pager{display:flex;gap:var(--s3);justify-content:space-between;align-items:center;margin-top:var(--s6)}
+.linklist{list-style:none;margin:0;padding:0}.linklist a{display:flex;min-height:var(--tap);align-items:center}
+.contact-card dt{color:var(--muted);font-size:.875rem}.contact-card dd{margin:0 0 var(--s4);font-weight:700;color:var(--navy);overflow-wrap:anywhere}
+.nf{text-align:center;padding-block:var(--s8)}.nf p{margin-inline:auto}
+.nf .row{display:flex;flex-wrap:wrap;gap:var(--s3);justify-content:center}
+.card__body p a,.card__body>a,.contact-card dd a{display:inline-flex;align-items:center;min-height:var(--tap)}
